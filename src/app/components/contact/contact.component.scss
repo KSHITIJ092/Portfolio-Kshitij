@@ -1,0 +1,21 @@
+.contact {
+    padding: 2rem;
+    text-align: center;
+    .social-links {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      li {
+        margin: 0 1rem;
+        a {
+          color: #1a73e8;
+          text-decoration: none;
+          &:hover {
+            color: #0d47a1;
+          }
+        }
+      }
+    }
+  }
+  
